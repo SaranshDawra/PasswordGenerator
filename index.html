@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="heading">Password Generator</h2>
+        <div class="result-container">
+            <span class="result">password</span>
+            <button class="btn">
+                <i class="far fa-clipboard"></i>
+            </button>
+        </div>
+        <div class="option-container">
+            <div class="selection">
+                <label for="length" class="selection-option">Password length</label>
+                <input type="checkbox" value="length" class="selection-check">
+            </div>
+            <div class="selection">
+                <label for="uppercase" class="selection-option">Include uppercase letters</label>
+                <input type="checkbox" value="uppercase" class="selection-check">
+            </div>
+            <div class="selection">
+                <label for="lowercase" class="selection-option">Include lowercase letters</label>
+                <input type="checkbox" value="lowercase" class="selection-check">
+            </div>
+            <div class="selection">
+                <label for="numbers" class="selection-option">Include numbers</label>
+                <input type="checkbox" value="numbers" class="selection-check">
+            </div>
+            <div class="selection">
+                <label for="symbols" class="selection-option">Include symbols</label>
+                <input type="checkbox" value="symbols" class="selection-check">
+            </div>
+        </div>
+        <button class="btn-lg">Generate</button>
+    </div>
+</body>
+</html>
