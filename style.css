@@ -87,6 +87,10 @@ body {
 	margin-right: 5%!important;
 }
 
+.input-number {
+	width: 10%;
+}
+
 .btn-lg{
 	width: 90%;
 	margin: auto;

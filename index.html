@@ -11,34 +11,34 @@
     <div class="container">
         <h2 class="heading">Password Generator</h2>
         <div class="result-container">
-            <span class="result">password</span>
-            <button class="btn">
+            <span class="result"></span>
+            <button class="btn" id="clipboard">
                 <i class="far fa-clipboard"></i>
             </button>
         </div>
         <div class="option-container">
             <div class="selection">
                 <label for="length" class="selection-option">Password length</label>
-                <input type="checkbox" value="length" class="selection-check">
+                <input type="checkbox" value=20 class="selection-check input-number"  id="length" min=4 max=20>
             </div>
             <div class="selection">
                 <label for="uppercase" class="selection-option">Include uppercase letters</label>
-                <input type="checkbox" value="uppercase" class="selection-check">
+                <input type="checkbox" value="uppercase" class="selection-check" id="uppercase">
             </div>
             <div class="selection">
                 <label for="lowercase" class="selection-option">Include lowercase letters</label>
-                <input type="checkbox" value="lowercase" class="selection-check">
+                <input type="checkbox" value="lowercase" class="selection-check" id="lowercase">
             </div>
             <div class="selection">
                 <label for="numbers" class="selection-option">Include numbers</label>
-                <input type="checkbox" value="numbers" class="selection-check">
+                <input type="checkbox" value="numbers" class="selection-check" id="numbers">
             </div>
             <div class="selection">
                 <label for="symbols" class="selection-option">Include symbols</label>
-                <input type="checkbox" value="symbols" class="selection-check">
+                <input type="checkbox" value="symbols" class="selection-check" id="symbols">
             </div>
         </div>
-        <button class="btn-lg">Generate</button>
+        <button class="btn-lg" id="generate">Generate</button>
     </div>
 </body>
 </html>
